@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Vital-Vessel/precache-manifest.fe4b42645106712868c4f478ce3f45a6.js"
+  "/Vital-Vessel/precache-manifest.dbdd8feddb01378494bb850b300074ce.js"
 );
 
 self.addEventListener('message', (event) => {
