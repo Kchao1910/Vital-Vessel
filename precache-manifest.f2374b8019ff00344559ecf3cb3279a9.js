@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd718b65bf3d113916795a4f256c5c07",
+    "revision": "57d724f4308da23c6ea52e73b1075b4b",
     "url": "/Vital-Vessel/index.html"
   },
   {
-    "revision": "d1b1708e86aacc74d1eb",
-    "url": "/Vital-Vessel/static/css/main.917d19a0.chunk.css"
+    "revision": "69047316cd296474b790",
+    "url": "/Vital-Vessel/static/css/main.2145112e.chunk.css"
   },
   {
     "revision": "c305da58523e7f30d874",
     "url": "/Vital-Vessel/static/js/2.34d8e5ff.chunk.js"
   },
   {
-    "revision": "d1b1708e86aacc74d1eb",
+    "revision": "69047316cd296474b790",
     "url": "/Vital-Vessel/static/js/main.fdcb6923.chunk.js"
   },
   {

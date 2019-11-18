@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Vital-Vessel/static/css/main.917d19a0.chunk.css",
+    "main.css": "/Vital-Vessel/static/css/main.2145112e.chunk.css",
     "main.js": "/Vital-Vessel/static/js/main.fdcb6923.chunk.js",
     "main.js.map": "/Vital-Vessel/static/js/main.fdcb6923.chunk.js.map",
     "runtime-main.js": "/Vital-Vessel/static/js/runtime-main.f9b15199.js",
@@ -8,14 +8,14 @@
     "static/js/2.34d8e5ff.chunk.js": "/Vital-Vessel/static/js/2.34d8e5ff.chunk.js",
     "static/js/2.34d8e5ff.chunk.js.map": "/Vital-Vessel/static/js/2.34d8e5ff.chunk.js.map",
     "index.html": "/Vital-Vessel/index.html",
-    "precache-manifest.37f144bc46cf3c35527d49c01df0df5d.js": "/Vital-Vessel/precache-manifest.37f144bc46cf3c35527d49c01df0df5d.js",
+    "precache-manifest.f2374b8019ff00344559ecf3cb3279a9.js": "/Vital-Vessel/precache-manifest.f2374b8019ff00344559ecf3cb3279a9.js",
     "service-worker.js": "/Vital-Vessel/service-worker.js",
-    "static/css/main.917d19a0.chunk.css.map": "/Vital-Vessel/static/css/main.917d19a0.chunk.css.map"
+    "static/css/main.2145112e.chunk.css.map": "/Vital-Vessel/static/css/main.2145112e.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.f9b15199.js",
     "static/js/2.34d8e5ff.chunk.js",
-    "static/css/main.917d19a0.chunk.css",
+    "static/css/main.2145112e.chunk.css",
     "static/js/main.fdcb6923.chunk.js"
   ]
 }
