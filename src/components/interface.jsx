@@ -10,7 +10,7 @@ class Interface extends React.Component {
       systolic: "",
       diastolic: "",
       heartRate: "",
-      dateTime: "",
+      date: "",
       logs: [],
       count: 0,
       dateData: [],
@@ -27,18 +27,18 @@ class Interface extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    let {logs, count, systolic, diastolic, heartRate, dateTime} = this.state;
+    let {logs, count, systolic, diastolic, heartRate, date} = this.state;
 
     this.setState({count: count + 1});
 
     if (logs.length >= 1) {
-      this.setState({ logs: logs.concat({ count, systolic, diastolic, heartRate, dateTime })
-      .sort((obj1, obj2) => (obj1.dateTime > obj2.dateTime) ? 1 : -1) });
+      this.setState({ logs: logs.concat({ count, systolic, diastolic, heartRate, date })
+      .sort((obj1, obj2) => (obj1.date > obj2.date) ? 1 : -1) });
     } else {
-      this.setState({ logs: logs.concat({ count, systolic, diastolic, heartRate, dateTime })});
+      this.setState({ logs: logs.concat({ count, systolic, diastolic, heartRate, date })});
     }
 
-    this.setState({ dateData: logs.map(log => log.dateTime),
+    this.setState({ dateData: logs.map(log => log.date),
       sysData: logs.map(log => log.systolic),
       diaData: logs.map(log => log.diastolic),
       hrData: logs.map(log => log.heartRate)
@@ -46,12 +46,12 @@ class Interface extends React.Component {
   };
 
   render() {
-    const { systolic, diastolic, heartRate, dateTime, logs, dateData, sysData, diaData, hrData} = this.state;
+    const { systolic, diastolic, heartRate, date, logs, dateData, sysData, diaData, hrData} = this.state;
 
     return (
       <React.Fragment>
         <Tracker dateData={dateData} sysData={sysData} diaData={diaData} hrData={hrData}></Tracker>
-        <Reader onChange={this.handleChange} onSubmit={this.handleSubmit} systolic={systolic} diastolic={diastolic} heartRate={heartRate} dateTime={dateTime} logs={logs}></Reader>
+        <Reader onChange={this.handleChange} onSubmit={this.handleSubmit} systolic={systolic} diastolic={diastolic} heartRate={heartRate} date={date} logs={logs}></Reader>
       </React.Fragment>
     );  
   }

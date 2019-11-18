@@ -3,7 +3,7 @@ import React from 'react';
 class Form extends React.Component {
 
   render() {
-    const { systolic, diastolic, heartRate, dateTime, onChange, onSubmit} = this.props;
+    const { systolic, diastolic, heartRate, date, onChange, onSubmit} = this.props;
 
     return (
       <React.Fragment>
@@ -14,8 +14,8 @@ class Form extends React.Component {
           <input type="number" name="diastolic" id="diastolic" min="0" max="200" placeholder="80" value={diastolic} onChange={onChange}/>
           <label htmlFor="heart-rate">Heart Rate</label>
           <input type="number" name="heartRate" id="heartRate" min="0" max="200" placeholder="60" value={heartRate} onChange={onChange}/>
-          <label htmlFor="datetime">Date and Time</label>
-          <input type="datetime-local" name="dateTime" id="dateTime" value={dateTime} onChange={onChange}/>
+          <label htmlFor="date">Date</label>
+          <input type="date" name="date" id="date" placeholder="dd/mm/yyyy" value={date} onChange={onChange}/>
           <input type="submit" value="Add Reading" id="submit-btn"/>
         </form>
       </React.Fragment>
