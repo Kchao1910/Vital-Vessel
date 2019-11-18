@@ -66,7 +66,9 @@ ul {
   justify-content: center;
 }
 
-.chartjs-render-monitor {
-  height: 500px !important;
-  width: 950px !important;
+@media screen and (min-width: 768px) {
+  .chartjs-render-monitor {
+    height: 500px !important;
+    width: 950px !important;
+  }
 }
